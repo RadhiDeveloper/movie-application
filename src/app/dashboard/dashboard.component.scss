@@ -1,0 +1,12 @@
+@import "src/app/shared/stylesheets/style_constants";
+
+.dashboard-container {
+  padding: 20px;
+  .title-name {
+    text-align: center;
+    font-size: 20px;
+    color: $theme-color-2;
+    margin: 10px;
+    font-weight: bold;
+  }
+}

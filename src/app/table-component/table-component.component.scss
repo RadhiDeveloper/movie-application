@@ -1,0 +1,25 @@
+@import "src/app/shared/stylesheets/style_constants";
+
+table.ng2-table {
+  thead {
+
+  }
+  tr td {
+    font-size: 16px;
+  }
+}
+.tag-style {
+  padding: 3px 5px;
+  border-radius: 3px;
+  margin: 2px 5px;
+  &.green {
+    background: #b6d7a8;
+  }
+  &.yellow {
+    background: $theme-color-5;
+  }
+  &.pink {
+    background: $theme-color-4;
+  }
+}
+

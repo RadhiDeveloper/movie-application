@@ -1,0 +1,30 @@
+/* You can add global styles to this file, and also import other style files */
+@import "src/app/shared/stylesheets/style_constants";
+
+body {
+  background: $theme-color-1;
+}
+
+.table-column {
+  font-size: 16px !important;
+  background: #0000000a;
+  a {
+    color: $theme-color-2 !important;
+  }
+}
+
+.ng2-smart-filters {
+  th {
+    background: #0000000a;
+    font-size: 12px !important;
+  }
+}
+.ng2-smart-row.selected {
+  background: white !important;
+}
+tbody tr {
+  background: white;
+  td {
+    font-size: 14px !important;
+  }
+}
